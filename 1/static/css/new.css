@@ -1,0 +1,186 @@
+﻿
+html, body { font-family: Arial, 微软雅黑; font-size: 18px; color: rgb(51, 51, 51); }
+body, li, ul, dl, dd, dt, p, h1, h2, h3 { padding: 0px; margin: 0px; border: 0px; }
+* { box-sizing: border-box; }
+i, em { font-style: normal; }
+li { list-style: none; }
+a { color: rgb(85, 91, 166); text-decoration: none; }
+a:hover { color: rgb(0, 0, 51); }
+.clear { clear: both; }
+q { color: rgb(255, 74, 74); quotes: "" "" "" ""; }
+.dhidden { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
+.dn { display: none; }
+.iconfont { font-size: 1.8em; vertical-align: middle; padding: 0px 2px; font-weight: normal; display: inline-block; margin-top: -0.1em; }
+.bottombd { border-bottom: 10px solid rgb(240, 240, 240); }
+.fff { color: rgb(255, 255, 255); }
+a.fff:hover, a.fff.active { color: rgb(254, 116, 28); }
+.c333 { color: rgb(51, 51, 51); }
+a.c333:hover, a.c333.active { color: rgb(254, 116, 28); }
+.c666 { color: rgb(102, 102, 102); }
+a.c666:hover, a.c666.active { color: rgb(254, 116, 28); }
+.c999 { color: rgb(153, 153, 153); }
+a.c999:hover, a.c999.active { color: rgb(254, 116, 28); }
+.orange { color: rgb(254, 116, 28); }
+a.orange:hover, a.orange.active { color: rgb(255, 204, 0); }
+.blue { color: rgb(85, 91, 166); }
+a.blue:hover { color: rgb(0, 0, 51); }
+.bgblue { background: rgb(56, 63, 144); }
+.line15em { line-height: 1.5em; }
+.line18em { line-height: 1.8em; }
+.font12 { font-size: 12px; }
+.font16 { font-size: 16px; }
+.font18 { font-size: 18px; }
+.font20 { font-size: 20px; }
+.b { font-weight: bold; }
+.center { text-align: center; }
+.leftttl dt .iconfont { font-size: 1.5em; }
+.lefttt2 dt .iconfont { font-size: 1.5em; }
+body { min-width: 320px; background: rgb(240, 240, 240); }
+#wrap { width: 100%; max-width: 640px; margin: 0px auto; background: rgb(255, 255, 255); }
+#container { width: 100%; position: relative; }
+header { width: 100%; min-width: 320px; }
+header .head { width: 100%; max-width: 640px; margin: 0px auto; position: relative; line-height: 48px; }
+header .t_left, header .t_right { width: 48px; height: 48px; position: absolute; left: 0px; top: 0px; text-align: center; z-index: 1; }
+header .t_left .iconfont, header .t_right .iconfont { display: block; margin: 0px 2px; }
+header .t_left:hover, header .t_right:hover { background: rgba(255, 255, 255, 0.1); }
+header .title { padding: 0px 48px; position: relative; }
+header .title img { display: inline-block; vertical-align: middle; margin-top: -2px; margin-right: 5px; }
+header .title .searchbox { position: relative; }
+header .title .searchbox .iconfont { position: absolute; right: 3px; top: 0px; margin: 0px; }
+header .title .search { width: 100%; height: 36px; padding: 0px 30px 0px 40px; background: rgb(255, 255, 255); border-radius: 3px; border: 0px; outline: none; }
+header .title .indexsearch { padding: 0px 30px 0px 10px; }
+header .title .searchbtn { color: rgb(255, 255, 255); width: 48px; height: 48px; background: 0px center; border: 0px; position: absolute; left: 100%; top: 0px; }
+header .t_right { left: auto; right: 0px; }
+#slicemenu { position: fixed; z-index: 1000; left: 100%; top: 0px; width: 100%; height: 100%; background: rgba(50, 50, 50, 0.3); line-height: 2em; }
+#slicemenu.show { left: 0px; }
+#slicemenu .pagemenu { background: rgb(255, 255, 255); position: relative; left: 85%; width: 85%; height: 100%; float: right; box-shadow: rgba(50, 50, 50, 0.3) -5px 0px 5px; transition: left 300ms ease-in-out 0s; }
+#slicemenu.show .pagemenu { left: 0%; overflow: hidden scroll; }
+#slicemenu.show .pagemenu::-webkit-scrollbar { width: 0px; height: 0px; }
+#slicemenu .close { z-index: 1; position: absolute; right: 10px; top: 5px; line-height: 1.5em; }
+#slicemenu .ttl { border-top: 1px solid rgb(238, 238, 238); padding: 10px 10px 0px; }
+#slicemenu .mpart { padding: 10px; }
+#slicemenu .mpart.position a { display: inline-block; }
+#pagenav li { float: left; width: 50%; padding: 5px 3px; }
+#pagenav li a { display: block; background: rgb(242, 242, 242); text-align: center; border-radius: 5px; line-height: 2.5em; }
+#pagenav li a.hov { background: rgb(85, 91, 166); color: rgb(255, 255, 255); }
+footer { width: 100%; min-width: 320px; }
+footer li { width: 20%; height: 54px; float: left; text-align: center; }
+footer li i.iconfont { display: block; width: 100%; height: 30px; margin: 0px auto; font-size: 2.6em; }
+footer li a { display: block; padding: 4px 0px; }
+footer li a.fff:hover { color: rgb(255, 255, 0); }
+#go_top li .iconfont { margin: 0px; }
+#go_top li.close { transition: all 300ms ease-in-out 0s; }
+#go_top li.close span { width: 48px; height: 48px; text-align: center; border-radius: 6px; display: table-cell; vertical-align: middle; transition: all 300ms ease-in-out 0s; color: rgb(153, 153, 153); }
+#go_top.close { margin-right: -49px; }
+#go_top.close li.close { margin-left: -20px; }
+#go_top.close li.close span { text-align: left; color: rgb(255, 255, 255); background: rgba(0, 0, 0, 0.3); }
+.blockmenu.tuijianmenu li a i.iconfont { display: inline-block; width: 1.15em; height: 1.15em; border-radius: 50%; background: rgb(85, 91, 166); color: rgb(255, 255, 255); }
+.brandupbox.dn #mengban { display: none; }
+.brandupbox .brandupinfo i.iconfont { color: rgb(182, 182, 218); font-size: 24px; padding-left: 0px; margin-top: 0px; }
+.brandupbox .brandupinfo ul li span.nickname { display: inline-block; width: 90px; vertical-align: middle; }
+.brandupbox .brandupinfo ul li span.manager .iconfont { font-size: 18px; margin-top: -2px; }
+.brandupbox .brandupinfo .close { position: absolute; right: 10px; top: 8px; width: 24px; height: 24px; text-align: center; line-height: 24px; cursor: pointer; background: rgb(85, 91, 166); z-index: 1; }
+.brandupbox .brandupinfo .close::after { content: "×"; font-size: 20px; font-family: 宋体; color: rgb(255, 255, 255); }
+.position.articlepos { padding: 10px 0px; line-height: 1em; border-bottom: 1px solid rgb(247, 247, 247); }
+.xgbanddan a span.ttl { background: rgb(85, 91, 166); border-radius: 5px; margin-right: 5px; padding: 2px 5px; color: rgb(255, 255, 255); }
+body { background: rgb(255, 255, 255); }
+.bottombd { border-bottom: 10px solid rgb(242, 243, 249); }
+.articlecont { padding: 10px; line-height: 2em; font-size: 16px; }
+h1 { padding: 10px; }
+.author { background: rgb(249, 249, 249); padding: 10px; line-height: 1.5em; }
+.author .iconfont { font-size: 1.5em; margin-top: -2px; display: inline-block; }
+.articlecont .author { margin: 0px -10px; }
+.articlecont h1 { padding-top: 0px; }
+.articlecont img, .specialcont img, .simplewidth img { max-width: 100%; height: auto; }
+.articlecont img { display: block; }
+.articlecont p { line-height: 2em; text-indent: 0px; word-break: break-all; }
+.articlecont > p { margin: 1em 0px; }
+.articlecont p span { line-height: 2em; }
+.showauthor { display: block; }
+.showauthor .authorblue { color: rgb(255, 255, 255); }
+.showauthor .authorblue:hover { color: rgb(255, 75, 0); cursor: pointer; }
+.showauthor em { display: block; font-size: 12px; color: rgb(255, 255, 255); line-height: 1.5em; background: rgba(0, 0, 0, 0.4); padding: 5px 10px; }
+.showauthor em .iconfont { font-size: 1.5em; margin-top: -2px; display: inline-block; }
+.showauthor em a { color: rgb(255, 255, 255); padding: 0px 2px; font-size: 12px; }
+.articlelinks .title { position: absolute; line-height: 30px; width: 170px; background-color: rgb(255, 255, 255); left: 50%; top: -15px; margin-left: -85px; text-align: center; }
+.articlecomment { border-top: 10px solid rgb(242, 243, 249); margin-top: 30px; position: relative; padding: 0px 10px 10px; }
+.articlecomment .wangyou { margin: 15px 0px; }
+.articlecomment .wangyou .msgcount { line-height: 1em; position: absolute; right: 0px; top: 50%; margin-top: -0.5em; }
+.articlecomment .wangyou .msgcount i { margin: 0px 3px; }
+.articlecomment .dianzhan { margin-right: 20px; }
+.articlecomment .dianzhan, .articlecomment .xiajiang { border-radius: 18px; padding: 3px 10px; display: inline-block; border: 1px solid rgb(238, 238, 238); margin-bottom: 10px; text-align: center; line-height: 2em; min-width: 22%; }
+.articlecomment .tubiao { text-align: center; margin-bottom: 15px; }
+.articlecomment .tubiao .hui .icon-dianzan { color: rgb(153, 153, 153); }
+.articlecomment .tubiao .icon-dianzan-xiangxia { color: rgb(153, 153, 153); }
+.articlecomment .addnum.c999 { text-align: left; }
+.articlecomment .wangyou1 { border-bottom: 1px solid rgb(238, 238, 238); padding-bottom: 5px; font-size: 18px; font-weight: bold; margin-top: 30px; }
+.articlecomment .msgcount { margin-right: 6px; margin-top: -28px; float: right; }
+.articlecomment .msgcount i { margin: 0px 3px; }
+.articlecomment .commentlist { border: 1px solid rgb(238, 238, 238); }
+.articlecomment .left { float: left; }
+.articlecomment .right { float: right; }
+.articlecomment .commentlist .commentinput { min-height: 100px; padding: 10px; }
+.articlecomment .commentlist .commentinput img { width: 22px; height: 22px; margin: 0px 1px; }
+.articlecomment .commentlist .beforeinput { color: rgb(159, 159, 159); position: absolute; margin: -100px 0px 0px; padding: 10px; max-width: 95%; line-height: 1.5em; background: rgb(238, 238, 238); min-height: 100px; }
+.articlecomment .commentlist .forinput { margin: 0px; display: none; }
+.articlecomment .commentlist .commenttools { height: 40px; background: rgb(238, 238, 238); }
+.articlecomment .commentlist .biaoqingbox { margin: 0px 10px; width: 22px; height: 40px; position: relative; }
+.articlecomment .commentlist .biaoqing { height: 40px; width: 22px; display: table-cell; vertical-align: middle; text-align: center; margin: 0px 10px; }
+.articlecomment .commentlist .biaoqing img { vertical-align: middle; cursor: pointer; }
+.articlecomment .commentlist .submitcomment { background: rgb(253, 184, 12); padding: 0px 10px; cursor: pointer; }
+.articlecomment .commentlist .hudong { float: right; margin-right: 10px; line-height: 30px; }
+.articlecomment .commentlist .submitcomment .submit { font-size: 18px; color: rgb(255, 255, 255); width: 80px; height: 30px; line-height: 30px; }
+.articlecomment .commentlist .submitcomment:hover { box-shadow: rgb(243, 203, 105) 0px 0px 5px; background: rgba(253, 184, 12, 0.8); }
+.articlecomment .commentlist .downjiantou::after { content: ""; color: rgb(0, 0, 0); display: inline-block; vertical-align: middle; margin-left: 7px; border-width: 5px 4px; border-style: solid; border-color: rgb(255, 255, 255) transparent transparent; transition: all 200ms linear 0s; }
+.articlecomment .commenttips { font-size: 12px; color: rgb(159, 159, 159); line-height: 2em; }
+.articlecomment .usersay { border-bottom: 1px solid rgb(238, 238, 238); margin: 10px 0px; padding-bottom: 10px; position: relative; }
+.articlecomment .picbox { width: 50px; position: absolute; left: 0px; top: 0px; }
+.articlecomment .commentbox { overflow-wrap: break-word; padding-left: 60px; }
+.articlecomment .commentbox .commenttxt { overflow-wrap: break-word; padding: 0px 0px 5px; }
+.articlecomment .commentbox .commenttxt img { max-width: 100px; }
+.articlecomment .commenttime { line-height: 2em; }
+.articlecomment .commenttime .link { cursor: pointer; }
+.articlecomment .commenttime .link:hover { color: rgb(154, 158, 211); }
+.articlecomment .userpic img { width: 50px; height: 50px; border-radius: 50%; }
+.articlecomment .replylist { margin: 5px 10px 0px 60px; background: rgb(249, 249, 249); border: 1px solid rgb(238, 238, 238); }
+.articlecomment .replylist .commenttxt { overflow-wrap: break-word; padding: 0px 0px 10px; }
+.articlecomment .replylist dl { padding: 0px 10px; }
+.articlecomment .replylist dd { padding: 10px 5px; border-bottom: 1px solid rgb(238, 238, 238); line-height: 1.5em; }
+.articlecomment .replylist dd:last-child { border: 0px; }
+.description { margin: 10px 0px; padding: 10px; border: 1px solid rgb(238, 238, 238); background: rgb(250, 250, 250); color: rgb(102, 102, 102); line-height: 1.8em; }
+.artcontent .description { margin: 0em 10px 2em; }
+.simplewidth .md_9999 .title { color: rgb(51, 51, 51); line-height: 1em; border-left: 3px solid rgb(51, 51, 51); padding-left: 10px; font-weight: bold; margin: 10px 0px; }
+.simplecomment .articlecomment hr { border-top-color: rgb(85, 91, 166); }
+.simplecomment .articlecomment .commentlist .submitcomment { background-color: rgb(85, 91, 166); }
+.articletemplate1 .showmulu .close { z-index: 1; position: absolute; right: 10px; top: 5px; line-height: 1.5em; }
+#mzsmcontent { display: block; margin: 20px 10px 10px; background: rgb(255, 255, 255); position: relative; padding-bottom: 20px; }
+.mzsm { border: 1px solid rgb(238, 238, 238); padding: 15px 10px 10px; position: relative; height: 5.2em; overflow: hidden; }
+#mzsmcontent .mzsm_title { position: absolute; line-height: 20px; width: 190px; background-color: rgb(255, 255, 255); left: 50%; top: -10px; margin-left: -95px; border-radius: 10px 10px 0px 0px; z-index: 1; }
+.mzsm .mzsm_box { margin-bottom: 10px; }
+.mzsm .mzsm_box:last-child { margin-bottom: 0px; }
+#mzsmcontent .moremzsm { text-align: center; height: 0px; }
+#mzsmcontent .moremzsm img { width: 30px; height: 30px; background: rgb(255, 255, 255); margin-top: -10px; position: relative; z-index: 1; }
+.mobilereplybox .content .btnBar .title { font-size: 15px; padding: 0px 15%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.mobilereplybox .content .replaybox .original .name { color: rgb(0, 0, 255); }
+.article1 li .desc .title { display: block; font-size: 15px; line-height: 1.6em; height: 3.2em; margin-bottom: 0.2em; overflow: hidden; }
+.article1 li a.title:visited { color: rgb(175, 190, 205); }
+#target { border: none; font-size: 22px; background: none; color: red; }
+[class^="sicon-"], [class*=" sicon-"] { font-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; font-family: sicons !important; }
+[class^="alaicon-"], [class*=" alaicon-"] { font-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; font-family: alaicons !important; }
+* { margin: 0px; padding: 0px; }
+body { text-align: center; text-size-adjust: none; font: 14px Arial, Helvetica, sans-serif; }
+input[type="search"]:focus { background-color: transparent; }
+input[type="search"]::-webkit-search-cancel-button { display: none; }
+input, button { border: 0px; border-radius: 0px; background-color: transparent; -webkit-appearance: none; box-sizing: border-box; }
+html { font-size: 100px; }
+.suggest-content .video .left-section .content-section .title-section .title, .suggest-content .direct-new .left-section .content-section .title-section .title { margin-right: 5px; font: 16px/16px PingFangSC-Regular; color: rgb(0, 0, 0); }
+.text_red { color: red; }
+.make-friends { position: fixed; bottom: 0px; left: 0px; z-index: 1000; width: 100%; padding: 20px 0px; }
+.make-friends .container { display: inline-block; font-size: 0px; }
+.make-friends .container div, .make-friends button { float: left; display: inline-block; margin: 0px 20px; }
+.make-friends .container div { font-size: 34px; line-height: 56px; font-weight: bolder; color: rgb(255, 255, 255); }
+.make-friends .container div span { color: rgb(255, 255, 255); }
+.make-friends button { padding: 0px 34px; font-size: 26px; line-height: 52px; color: rgb(254, 239, 176); background-color: rgb(130, 88, 38); border: 2px solid rgb(254, 239, 176); border-radius: 28px; cursor: pointer; }
+.make-friends button span { display: none; }
+.gradient { background: linear-gradient(rgb(56, 63, 144) 0px, rgb(56, 63, 144) 100%); }
+.text-center { text-align: center; }
